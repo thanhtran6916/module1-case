@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="sign-in" class="container">
+        <form  action="./caro/index.html">
+            <h1>Sign in</h1>
+            <input id="userName" type="text" name="user_name" placeholder="User Name">
+            <input id="userPassword" type="password" name="password" placeholder="Password">
+            <button>Sign in</button>
+            <p>
+                Forgot your password?
+                <a id="init-sign" href="#">Click here</a>
+            </p>
+            <div class="icon">
+                <p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                </p>
+            </div>
+        </form>
+    </div>
+    <div id="registration" class="container">
+        <form  action="./caro/index.html">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal detals and start journey with us</p>
+            <button>Sign up</button>
+            <div class="icon">
+                <p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script>
+        let signIn = document.getElementById("sign-in");
+        let registration = document.getElementById("registration");
+        let clickHere = document.getElementById("init-sign");
+        clickHere.addEventListener("click", function () {
+            registration.style.display = "block";
+            signIn.style.display = "none";
+        })
+    </script>
+
+</body>
+</html>

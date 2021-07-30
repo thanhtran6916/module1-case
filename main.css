@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    letter-spacing: 1.4px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #264097, #e7c0ff);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 300px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 28px #264097;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.container:hover{
+    width: 400px;
+}
+
+.container h1 {
+    text-align: center;;
+    margin-top: 28px;
+    margin-bottom: 48px;
+}
+
+.container form input {
+    display: block;
+    font-size: 16px;
+    border: none;
+    width: 80%;
+    margin: 24px auto;
+    padding: 12px;
+    border-bottom: solid 1px #ccc;
+    outline: none;
+}
+
+.container form input:hover {
+    border-bottom: solid 1px #264097;
+    color: #264097;
+}
+
+.container form button {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 88%;
+    margin: 48px auto 24px;
+    padding: 12px;
+    background-image: linear-gradient(to bottom right, #264097, #e7c0ff);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.container form button:hover {
+    opacity: 0.8;
+    text-shadow: 0 0 #000;
+}
+.container form p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.container form a {
+    color: #003bfe;
+    text-decoration: none;
+}
+
+.container form a:hover {
+    color: #294299;
+}
+
+.container .icon {
+    margin-top: 24px;
+}
+
+.container .icon p {
+    color: #7977c4;
+    font-size: 18px;
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+.icon p i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#registration {
+    display: none;
+    background-color: #313D87FF;
+    color: #fff;
+}
+
+#registration form {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#registration form h1{
+    margin-top: 0;
+}
+#registration form p {
+    margin: 0 auto;
+    font-size: 16px;
+    width: 90%;
+}
+
+#registration .icon i {
+    color: #e5bffe;
+}
+
+
+
+
+
+
+
+
+
+

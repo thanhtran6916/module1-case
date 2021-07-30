@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Tahoma;
+}
+
+button {
+    background-color: rgba(0,0,0,0);
+    border: solid 1px #268285;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2a9ec7;
+}
+
+.container #start {
+    font-family: Tahoma;
+    font-size: 28px;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0);
+    width: 132px;
+    height: 60px;
+    border: solid 2px #64c0cf;
+    border-radius: 16px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.container #start:hover {
+    background-color: #0b8fa8;
+    color: #fff;
+}
+
+.container h1 {
+    font-family: Tahoma;
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container .left {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+.container .right {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+
+#game {
+    display: none;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer a {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-family: Tahoma;
+    letter-spacing: 1.4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    opacity: 0.6;
+}
